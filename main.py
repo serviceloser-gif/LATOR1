@@ -67,7 +67,7 @@ def banner2():
 banner2()
 
 print ("\n"*1)
-print (Style.BRIGHT + "========= | RIGESTER  |==========")
+print (Style.BRIGHT + "========= | REGISTER  |==========")
 username = "localhost@user1"
 password = "YouRcool1"
 print (Style.BRIGHT + "=================================")
@@ -113,15 +113,15 @@ def banner():
 ███      ███  ███    ███    ███   ███ ███▄▄███▀
 ███      ███▀▀███    ███    ███▄▄▄███ ███▀▀██▄
 ████████ ███  ███    ███     ▀█████▀  ███  ▀███
-   version :  2.0
+
+   version :  2.0   [ Fixed Version ]
 https://github.com/serviceloser-gif """) #banner2
 
 banner()
 
 print ("\n" * 1)
 
-text = ("Hello,WORLD" + "\n")
-
+text = ("HELLO VISITOR\n")
 for ch in text:
     print(ch, end="", flush=True)
     time.sleep(0.10)
@@ -147,14 +147,14 @@ print (Style.BRIGHT + Fore.GREEN + "2.Math_solving (-)")
 print (Style.BRIGHT + Fore.GREEN + "3.( * ) Times_solving")
 print (Style.BRIGHT + Fore.GREEN + "4.(+)Addition solving")
 print (Style.BRIGHT + Fore.GREEN +"5.Full calculator control✏")
-print (Style.BRIGHT + Fore.GREEN +"6.Password hash (haslib)")
+print (Style.BRIGHT + Fore.GREEN +"6.Password hash (hashing)")
 print (Style.BRIGHT + Fore.GREEN + "7.Script info")
 print (Style.BRIGHT + Fore.GREEN +"8.Hashing Tool (More options)")
 print (Style.BRIGHT + Fore.GREEN +"9.Password Checker")
 print (Style.BRIGHT + Fore.GREEN +"10.WIfi Speed checker")
 print (Style.BRIGHT + Fore.GREEN +"11.View Your Terminal info")
 print (Style.BRIGHT + Fore.GREEN + "12.Show fake hacking")
-print (Style.BRIGHT + Fore.GREEN + "13.QCODE Generator")
+print (Style.BRIGHT + Fore.GREEN + "13.QRCODE Generator")
 print (Style.BRIGHT + Fore.GREEN + "14.Asci Art generator (New)")
 print (Style.BRIGHT + Fore.GREEN + "15.Ping checker (New)")
 print (Style.BRIGHT + Fore.GREEN + "16.Nmap (New)")
@@ -162,17 +162,17 @@ print (Style.BRIGHT + Fore.GREEN + "17.view top")
 print (Style.BRIGHT + Fore.GREEN + "18.view htop ( same as top )")
 print (Style.BRIGHT + Fore.GREEN + "19.Password Manager")
 print (Style.BRIGHT + Fore.YELLOW + "20.Notepad")
-print (Style.BRIGHT + "choose an Option 0-12")
+print (Style.BRIGHT + "choose an Option 0-20")
 #Input
 print (Fore.RED + "==============================")
-option = int(input(Style.BRIGHT + "Select 1-10 :"))
+option = int(input(Style.BRIGHT + "Select 0-20 :"))
 print (Fore.RED + "==============================")
 
 
 
 #Option 0
 if option == 0:
-   print ("Goodbye")
+   print (Style.BRIGHT + "Goodbye")
 #option 1
 elif option == 1:
    print (Style.BRIGHT + "[~] : LOADING.. THIS MIGTH TAKE 10 SECONDS")
@@ -246,7 +246,6 @@ elif option == 7:
     print (Style.BRIGHT + "[👑] OWNER :ADRIAN")
     print (Style.BRIGHT + "[💬] PROGRAMMING LANG : PYTHON")
     print (Style.BRIGHT + "[👥] Tiktok Account : @Rectypy")
-    print (Style.BRIGHT + "[👥] Youtube account : @souless")
     print (Style.BRIGHT + "[👥] Discord : adrianxpro_53803")
     print (Style.BRIGHT + "[📧] email : serviceloser@gmail.com")
     print (Style.BRIGHT + "=========================")
@@ -374,7 +373,6 @@ elif option == 11:
       os.system("pkg install screenfetch")
       os.system("screenfetch")
    elif section == 4:
-      print (Style.BRIGHT + "🔴Exitting...")
       time.sleep(3)
    else:
       print (Style.BRIGHT + "Invalid choice") #shows invalid option
@@ -405,7 +403,6 @@ elif option == 13:
     qr.make(fit=True)
 
     qr.print_ascii(invert=True)
-    print (Fore.YELLOW + Style.BRIGHT + "[✔] ~ QRCODE VIRRIFIED")
 
 elif option == 14:
    print ("\n" * 100)
@@ -434,7 +431,6 @@ elif option == 15:
    print (Fore.YELLOW + Style.BRIGHT + "Starting...")
    time.sleep(3)
    os.system(f"ping {ping}")
-   print (Fore.YELLOW +Style.BRIGHT + "[LATOR] ~ Free Open source")
 elif option == 16:
    print ("\n" * 100)
    print (Style.BRIGHT + Fore.RED + """ _   _
@@ -457,7 +453,6 @@ created by : Adrian""")
    print ("\n" * 1)
    ip = input(Style.BRIGHT + Fore.RED + "Enter Your IP address :")
    time.sleep(5)
-   print (Style.BRIGHT + Fore.YELLOW + "[ ✔ ]~ Locating ports...")
    os.system(f"nmap {ip}")
 elif option == 17:
    os.system("top") #regular system info
@@ -485,11 +480,11 @@ elif option == 20:
        f.write(f"Saved : {message}\n")
     time.sleep(5)
     print (Fore.YELLOW + Style.BRIGHT + "Succesfully saved!\n")
-    print (Fore.YELLOW + Style.BRIGHT + "Script Finnished!")
 
 def end():
-    print ("Script Finnished")
-
+    print (Fore.YELLOW + Style.BRIGHT + "Script Finnished")
+    print (Fore.YELLOW +Style.BRIGHT + "[LATOR] ~ Free Open source")
+end()
 #hi if your reading this message pls Respect my code.
 #i have spent over Months to make this.
 #Im adrian a 15 years old programmer. who wants to code and learn coding

@@ -5,34 +5,31 @@ i create small script like this.
 
 
 #Features
-- *Calculator Full control
-- *password manager
-- *Nmap
-- *saved message (notepad)
-- *Qrcode Generator
-- *ping checker
-- *Wifi speed checker
-- *ASCII ART GENERATOR
-- *And more
+- Calculator Full control
+- password manager
+- Nmap
+- saved message (notepad)
+- Qrcode Generator
+- ping checker
+- Wifi speed checker
+- ASCII ART GENERATOR
+- And more
 
 #Usage
 
 apt installl git
 
-#***********
-
+##
 git clone https://github.com/serviceloser-gif/LATOR.git
 
-#***********
-
+##
 cd LATOR
 
-#***********
+##
 
 pip3 install -r requirements.txt
 
-#************
-
+##
 python3 main.py
 
 ##

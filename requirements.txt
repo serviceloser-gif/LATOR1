@@ -1,0 +1,4 @@
+art
+qrcode
+colorama
+speedtest-cli

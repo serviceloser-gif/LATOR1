@@ -1,0 +1,40 @@
+helo people if your reading this .pleaser respect my script
+im adrian. im only 15 years old.
+i create small script like this.
+
+
+
+#Features
+- *Calculator Full control
+- *password manager
+- *Nmap
+- *saved message (notepad)
+- *Qrcode Generator
+- *ping checker
+- *Wifi speed checker
+- *ASCII ART GENERATOR
+- *And more
+
+#Usage
+
+apt installl git
+
+#***********
+
+git clone https://github.com/serviceloser-gif/LATOR.git
+
+#***********
+
+cd LATOR
+
+#***********
+
+pip3 install -r requirements.txt
+
+#************
+
+python3 main.py
+
+##
+
+Enjoy :)

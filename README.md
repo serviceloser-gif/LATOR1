@@ -19,19 +19,14 @@ i create small script like this.
 
 apt installl git
 
-##
-git clone https://github.com/serviceloser-gif/LATOR.git
+git clone https://github.com/serviceloser-gif/LATOR1.git
 
-##
 cd LATOR
-
-##
 
 pip3 install -r requirements.txt
 
-##
 python3 main.py
 
-##
 
+##
 Enjoy :)

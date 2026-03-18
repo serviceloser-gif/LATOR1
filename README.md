@@ -3,8 +3,11 @@ im adrian. im only 15 years old.
 i create small script like this.
 
 
+**Changelog**
+Updated to Veryion 3.0
 
-#Features
+
+***Features***
 - Calculator Full control
 - password manager
 - Nmap
@@ -15,7 +18,8 @@ i create small script like this.
 - ASCII ART GENERATOR
 - And more
 
-#Usage
+##
+**Usage**
 
 apt installl git
 

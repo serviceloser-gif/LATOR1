@@ -48,11 +48,13 @@ def logo5():
    ⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠘⠙⠝⠂⠄⢘⠋⠃⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄""") #ASCI ART
 logo5()
 
-print (Fore.BLUE + Style.BRIGHT + "[ ✔️ ] Loadin In 10 second")
+print (Fore.BLUE + Style.BRIGHT + "[ ✔️ ] Loadin In 5 second")
 
-time.sleep(10)
+time.sleep(5)
 print ("\n" * 100)
-def banner2():
+while True:
+    time.sleep(3)
+    os.system("clear")
     print (Style.BRIGHT + Fore.RED + """
 
 ░▒▓█▓▒░       ░▒▓██████▓▒░▒▓████████▓▒░▒▓██████▓▒░░▒▓███████▓▒░
@@ -63,17 +65,24 @@ def banner2():
 ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
 ░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░
                 https://github.com/serviceloser-gif
-    Version : 2.0                                              """) #banner
-banner2()
+    Version : 3.0                                              """) #banner
 
-print ("\n"*1)
-print (Style.BRIGHT + "========= | REGISTER  |==========")
-username = "localhost@user1"
-password = "YouRcool1"
-print (Style.BRIGHT + "=================================")
-print (Style.BRIGHT +(f"User is :{username}"))
-print (Style.BRIGHT + "Type |Yes| To continue")
-LOGIN = input(Style.BRIGHT + "ARE YOU SURE TO CONTINUE :")
+    print ("\n"*1)
+    print("\n"*1)
+    print(Style.BRIGHT + "========= | REGISTER  |==========")
+    username = "localhost@user1"
+    password = "YouRcool1"
+    print(Style.BRIGHT + "================================")
+    print(Style.BRIGHT + (f"User is :{username}"))
+    print(Style.BRIGHT + "Type |Yes| To continue")
+    LOGIN = input(Style.BRIGHT + "ARE YOU SURE TO CONTINUE :")
+    
+    if LOGIN.lower() == "yes":
+        break  
+    elif LOGIN.lower() == "no":
+        print("Try Again")
+    else:
+        print(Fore.YELLOW + Style.BRIGHT + "Invalid")
 #countdown
 print ("\n" * 100)
 print (Style.BRIGHT + Fore.BLUE + "=" * 50)
@@ -114,7 +123,7 @@ def banner():
 ███      ███▀▀███    ███    ███▄▄▄███ ███▀▀██▄
 ████████ ███  ███    ███     ▀█████▀  ███  ▀███
 
-   version :  2.0   [ Fixed Version ]
+   version :  3.0   [ Fixed Version ]
 https://github.com/serviceloser-gif """) #banner2
 
 banner()
@@ -131,7 +140,7 @@ def sign():
    print (Style.BRIGHT + Fore.YELLOW + "="*25)
    print (Fore.YELLOW + "[👑] created by : ADRIAN🔐")
    print (Fore.YELLOW + "[✏️] Signature : **AdsUk_")
-   print (Fore.YELLOW + "[✨]Version : 1.0")
+   print (Fore.YELLOW + "[✨]Version : 3.0")
    print (Fore.GREEN +"[✨] contribute : github")
    print (Fore.YELLOW + "[📨] email : serviceloser@gmail.com")
    print (Fore.YELLOW +"[🏪] discord : Adrianxpro_53803")
@@ -199,8 +208,11 @@ elif option ==4:
 #option 5
 elif option == 5:
      a = input(Style.BRIGHT + "NUMBERS INPUT :")
-     print (eval(a))
+     math = (eval(a))
      print (Style.BRIGHT + "To run thr script again , :python main.py")
+     print (Style.BRIGHT + Fore.YELLOW + "Answer Saved on math.txt")
+     with open("math.txt", "a") as f:
+         f.write(f"Saved :{math}\n") 
 #Option 6
 elif option == 6:
    print ("\n" * 100)
@@ -463,7 +475,7 @@ elif option == 19:
     print (Fore.RED + "=" * 30)
     print ("Password Manager")
     print (Fore.RED + "=" * 30)
-    site = input("Site/App: ")
+    site = input(Style.BRIGHT + "Site/App: ")
     username = input("Username: ")
     password = input("Password: ")
     with open("passwords.txt", "a") as f:
@@ -485,6 +497,9 @@ def end():
     print (Fore.YELLOW + Style.BRIGHT + "Script Finnished")
     print (Fore.YELLOW +Style.BRIGHT + "[LATOR] ~ Free Open source")
 end()
+
+if __name__ == "__main.py__":
+    main.py()
 #hi if your reading this message pls Respect my code.
 #i have spent over Months to make this.
 #Im adrian a 15 years old programmer. who wants to code and learn coding
